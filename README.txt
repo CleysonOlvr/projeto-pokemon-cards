@@ -1,0 +1,1 @@
+Este projeto consiste num slider de cartas de Pokémon, onde cada um deles trás informações sobre um pokémon diferente.

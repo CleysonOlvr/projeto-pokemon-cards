@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Cards</title>
+
+    <link rel="shortcut icon" href="src/images/pokebola.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/images/pokebola.png" alt="pokebola" class="pokebola">
+        <h1 class="titulo">Pokémon Cards</h1>
+    </header>
+
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/images/seta.png" alt="pokémon anterior">
+        </button>
+
+        <ul class="lista-pokemons">
+            <li class="cards selected bg-1">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 300</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/images/pikachu.png" alt="Pikachu" class="pokemon-image">
+                </div>
+
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">Os Pikachus são pequenos roedores de quarenta centímetros e de seis quilogramas, com um corpo redondo, pernas curtas e uma longa cauda, quando macho, a cauda tem um formato de um raio, mas se o Pikachu for fêmea sua cauda ganha um coração na ponta.</p>
+                </div>
+            </li>
+
+            <li class="cards bg-2">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 800</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/images/charizard.png" alt="Charizard">
+                </div>
+
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">Geralmente um Charizard é competitivo. Ele adora a batalha e seu espírito competitivo também é notável, uma vez que nunca vai cuspir fogo em um inimigo mais fraco a menos que provocado ou ordenado. Quando fica muito irritado, as chamas em sua cauda se tornam branco-azuladas.</p>
+                </div>
+            </li>
+
+            <li class="cards bg-3">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP 1200</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/images/mewtwo.png" alt="Mewtwo">
+                </div>
+
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">Mewtwo foi criado geneticamente em um laboratório, sendo um clone do misterioso antigo Pokémon Mew. É uma criatura com uma postura humanóide, mas tem algumas características felinas.</p>
+                </div>
+            </li>
+
+            <li class="cards bg-4">
+                <div class="informacoes">
+                    <h2 class="nome">Squirtle</h2>
+                    <p class="vida">HP 400</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/images/squirtle.png" alt="Squirtle">
+                </div>
+
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">Squirtle é um pequeno Pokémon azul-claro com uma aparência semelhante ao de uma tartaruga. Como tartarugas, Squirtle tem um escudo que cobre seu corpo com orifícios que permitem que seus membros, cauda e cabeça para ser exposto. Ao contrário de uma tartaruga Squirtle é normalmente bípede.</p>
+                </div>
+            </li>
+
+            <li class="cards bg-3">
+                <div class="informacoes">
+                    <h2 class="nome">Bulbassauro</h2>
+                    <p class="vida">HP 600</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/images/bulbassauro.png" alt="Bulbassauro">
+                </div>
+
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">Bulbassauro é um pequeno Pokémon anfíbio quadrúpede de pele azul-esverdeada com manchas mais escuras. Tem olhos vermelhos com pupilas brancas, orelhas pontiagudas no topo de sua cabeça e um focinho curto e rombudo acima de sua larga boca. Possui em cada uma de suas pernas grossas três garras afiadas. Nas costas de Bulbassauro há um grande bulbo de planta verde, que é cultivado a partir de uma semente plantada em seu nascimento. O bulbo também esconde duas videiras semelhantes a tentáculos.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/images/seta.png" alt="próximo pokémon">
+        </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
